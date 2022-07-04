@@ -14,9 +14,12 @@ services:
       - POSTGRES_PASSWORD=postgres
     ports:
       - 5432:5432
+    networks:
+      - my_network
 
   app:
     build: .
+    restart: always
     volumes:
       - .:/app
     ports:
