@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
     border: 1px solid #ccc;
     border-radius: 8px;
     width: 60%;
-    height: 24px;
+    height: 32px;
     padding: 8px;
     font-weight: 500;
   }

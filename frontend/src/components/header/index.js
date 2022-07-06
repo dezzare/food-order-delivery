@@ -25,14 +25,14 @@ const Header = () => {
           </Link>
           <Link to="/cart">
             <button type="button">
-              Carrinho
+              Cardápio
             </button>
           </Link>
         </div>
         <div>
           <input
             type="text"
-            placeholder="Digite o username para pesquisa"
+            placeholder="Digite o produto para pesquisa"
           // onChange={(e) => setUsernameForSearch(e.target.value)}
           />
           <button
