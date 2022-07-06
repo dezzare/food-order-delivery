@@ -33,3 +33,17 @@ services:
       - POSTGRES_HOST=db
     networks:
       - my_network
+
+
+  react:
+    build: ./frontend
+    restart: always
+    volumes:
+      - ./frontend/:/app/frontend
+    ports:
+      - 3000:3000
+    depends_on:
+      - db
+      - app
+    networks:
+      - my_network

@@ -1,11 +1,11 @@
 FROM node:18.4.0-alpine
 
-WORKDIR /app
+WORKDIR /app/frontend/
 COPY package*.json ./
 
 RUN npm install
 COPY . . 
 
-EXPOSE 5000
+EXPOSE 3000
 
-CMD sh -c "sleep 60 && npm run dev"
+CMD [ "npm", "run", "start" ]
