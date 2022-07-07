@@ -10,6 +10,7 @@ This project is for study some topics:
 Out of scope:
   - Beautiful Front-end (the objective is study how to consume an API)
   - multiples routes
+  - clean code (again, the objective is test, try somethings new)
 
 ____________________________________________________
 
